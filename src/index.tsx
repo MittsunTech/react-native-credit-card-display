@@ -194,16 +194,6 @@ const CreditCardDisplay = (props: Props) => {
                   <View style={styles.groupContainer}>
                     {props.expiration && (
                       <>
-                        <Text
-                          style={{
-                            ...styles.groupLabel,
-                            fontSize: props.fontSize * 0.7,
-                            color: props.fontColor,
-                            textAlign: 'center',
-                          }}
-                        >
-                          VALID{'\n'}THRU
-                        </Text>
 
                         <Text
                           style={{
